@@ -6,8 +6,6 @@ GARUDA is an advanced environmental monitoring system combining a rover and dron
 
 ---
 
-## Concept Map
-
 # Project GARUDA
 
 ## Workflow Diagram
