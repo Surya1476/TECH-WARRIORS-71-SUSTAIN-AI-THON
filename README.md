@@ -28,6 +28,86 @@ GARUDA is an advanced environmental monitoring system combining a rover and dron
 
 ---
 
+# Concept Map: Rover and Drone System
+
+## Rover
+
+### Brain
+- **Arduino Mega**
+  - Primary brain
+  - Manages data and control functions
+
+### Movement
+- **10kg Torque Gear Motor**
+  - Provides movement
+- **Motor Drive Module**
+  - Guides motor operations
+
+### Navigation
+- **GPS**
+  - Provides navigation capabilities
+
+### Obstacle Detection
+- **Ultrasonic Sensors**
+  - Detects obstacles
+
+### Power
+- **Solar Panel**
+  - Primary power source
+- **Battery**
+  - Backup power source
+
+### Wheels
+- **Off-road 4-inch Wheels**
+  - Designed for rough terrain
+
+### Surveillance
+- **Cameras**
+  - Infrared camera
+  - Normal camera
+
+### Environmental Monitoring
+- **Sensors**
+  - Temperature sensor
+  - Humidity sensor
+
+### Crane Control
+- **Servo Motor & Driver**
+  - Operates crane
+
+### Door Control
+- **Hydraulic Motor**
+  - Operates doors
+
+### Remote Control
+- **NRF24L01**
+  - Enables manual control via remote
+
+---
+
+## Drone
+
+### Brain
+- **PIXHAWK**
+  - Pre-programmed for specific use cases
+  - Supports manual control
+
+### Communication
+- **Telemetry**
+  - Sends data to ground station
+
+### Object Differentiation
+- **Cameras**
+  - Infrared camera
+  - Night vision camera
+  - Differentiates between living and non-living things
+
+### Fire Detection
+- **Fire Sensor**
+  - Detects fire
+
+---
+
 ## Tech Stack of Project GARUDA
 
 ### Rover
